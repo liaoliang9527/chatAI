@@ -1,0 +1,27 @@
+{
+      "files": [],
+    "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+   
+  ],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": [
+      "vue",
+      "vite/client",
+       "vue-router",
+       "tdesign-vue-next/global"
+    ],
+    "paths": {
+      "@/*": ["src/*"],
+      "tdesign-vue-next/*": ["node_modules/tdesign-vue-next/*"]
+    }
+  }
+}
